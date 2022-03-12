@@ -1,6 +1,6 @@
 # MovieLand with React
 
-This project was made in React, in React JS Crash Course 2022 from the [Javascript Mastery](https://www.youtube.com/channel/UCmXmlB4-HJytD7wek0Uo97A) Youtube channel.
+This project was made with React, in React JS Crash Course 2022 from the [Javascript Mastery](https://www.youtube.com/channel/UCmXmlB4-HJytD7wek0Uo97A) Youtube channel.
 A mini application to receive movie information, connecting with the [OMDb](http://www.omdbapi.com/) api.
 
 [Link to the Project](https://movieland-renato.netlify.app/)
@@ -29,6 +29,10 @@ $ cd movieland-app
 
 Install dependencies
 $ yarn install
+
+Create an api key in OMDb through the link: http://www.omdbapi.com/apikey.aspx
+
+Create an .env file in the project root, with the variable inside REACT_APP_API_KEY=(Your API key)
 
 Run the application in development mode
 $ yarn start
