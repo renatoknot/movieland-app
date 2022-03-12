@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
 import "./App.css";
 import SearchIcon from "./search.svg";
@@ -17,9 +17,6 @@ const App = () => {
 
     setMovies(data.Search);
   };
-  // useEffect(() => {
-  //   searchMovies(searchTerm);
-  // }, [searchTerm]);
 
   const handleEnter = (e) => {
     if (e.key === "Enter" && searchTerm !== "") {
